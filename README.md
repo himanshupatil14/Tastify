@@ -113,3 +113,33 @@ Add mysql-connector-java.jar from lib/
 5.**Run Project:**
 Deploy to Apache Tomcat
 Open browser: http://localhost:8080/Tastify
+
+----------------------------------------------------------------------------------------------------------------
+
+**How Dynamic Pages Work**
+1.Home.jsp: Fetches restaurant list dynamically from MySQL.
+2.Menu.jsp: Fetches menu items of selected restaurant.
+3.Cart.jsp: Uses session to store cart items.
+4.Checkout.jsp: Submits order details to CheckoutServlet.
+5.OrderConfirmation.jsp: Shows order summary dynamically and plays audio notification.
+6.AdminPanel.jsp: Fetches and updates restaurant/menu/order data dynamically
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------
+|                                                            |
+|                        Author                              |
+|                                                            |
+|                   Himanshu Patil                           |
+|             B.Tech – Computer Engineering                  |
+| GitHub: https://github.com/himanshupatil14                 |
+|                                                            |
+--------------------------------------------------------------
